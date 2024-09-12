@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" href="/CSS/css/CertiApp/style/formpage.css"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   
+    <nav class="flex justify-end p-3 text-white">
+        <div>
+            <a href="" class="mx-4 bg-blue-600 px-3 py-2">Home</a>
+            <a href="formpage.html" class="mx-4 text-black">Issue Certificate</a>
+        </div>
+    </nav>
+
+      <div class="flex justify-center mt-10 mb-10">
+        <div class="bg-slate-400 w-6/12 max-h-full p-14 mt-3  rounded-xl shadow-xl shadow-slate-200">
+            <H2 class="text-white font-mono text-2xl font-bold text-center">Certificate</H2>
+            <div class="ml-8">
+                <form action="">
+                    <div class="mt-4 pl-5">
+                        <h4 class="text-white">Select Course:</h4>
+                        <select class="w-96 h-10">
+                            <option value="">PCB</option>
+                            <option value="">CS</option>
+                            <option value="">BC</option>
+                        </select>
+                    </div>
+    
+                    <div class="mt-4 pl-5">
+                        <h4 class="text-white">Certificate ID:</h4>
+                        <input type="text" required class="w-96 h-10">
+                    </div>
+                    <div class="mt-4 pl-5">
+                        <h4 class="text-white">Certificate Name:</h4>
+                        <input type="text" required class="w-96 h-10">
+                    </div>
+                    <div class="mt-4 pl-5">
+                        <h4 class="text-white">Select Grade:</h4>
+                        <select class="w-96 h-10">
+                            <option value="">S-A+</option>
+                            <option value="">A-B+</option>
+                            <option value="">B-C+</option>
+                            <option value="">D+-F</option>
+                        </select>
+                    </div>
+                    <div class="mt-4 pl-5">
+                        <h4 class="text-white">Issue Date:</h4>
+                        <input type="date" required class="w-96 h-10">
+                        </div>
+                    <div class=" mt-5 ml-5 bg-stone-800 rounded-xl  text-center w-96 h-10">
+                        <input type="button" class="text-white p-3 w-32  rounded-xl " value="Print" required >
+                    </div>
+                </form>
+            </div>
+    
+        </div>
+    </div>
+
+</body>
+</html>
